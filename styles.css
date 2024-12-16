@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #sidebar {
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #content {
+    width: 70%;
+    float: left;
+    padding: 10px;
+  }
+  
+  #user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+  }
+  
+  .user-item:hover {
+    background-color: #f0f0f0;
+  }
+  

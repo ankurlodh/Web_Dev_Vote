@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Dev Workshop</title>
+  </head>
+  <body>
+    <!-- sidebar -->
+    <div id="sidebar">
+      <h3>Registered User</h3>
+      <ul id="user-list"></ul>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+      <!-- Authentication -->
+       
+      <div id="auth-section">
+        <h2>Register</h2>
+        <input id="reg-email" type="email" placeholder="Email" required />
+        <input
+          id="reg-password"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <button id="register-btn">Register</button>
+
+        <h2>Login</h2>
+        <input id="login-email" type="email" placeholder="Email" required />
+        <input
+          id="login-password"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <button id="login-btn">Login</button>
+      </div>
+
+      <!-- Voting -->
+      <div id="vote-section" style="display: none">
+        <h2>Vote here please!</h2>
+        <button id="vote-option1">Tea</button>
+        <button id="vote-option2">Coffee</button>
+        <p>Option 1 Votes: <span id="option1-count">0</span></p>
+        <p>Option 2 Votes: <span id="option2-count">0</span></p>
+        <button id="logout-btn">Logout</button>
+      </div>
+    </div>
+     <script src="app.js"></script>
+  </body>
+</html>
